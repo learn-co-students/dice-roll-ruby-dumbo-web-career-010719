@@ -4,4 +4,11 @@
 
 def roll
   # code goes here
+  rand(1..6)
+end
+
+#BONUS
+def second_roll
+    arr = [1, 2, 3, 4, 5, 6]
+    arr.rand
 end
